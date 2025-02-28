@@ -1,7 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -30,10 +26,6 @@ body {
   border: 2px solid black;
   background-color: blue;
   border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
 }
 
 .container-nav a:hover {
@@ -49,20 +41,19 @@ body {
   height: 100px;
 }
 
-.main {
-}
-
-.aside-nav li a {
-  overflow: hidden;
-  list-style: none;
-  text-decoration: none;
-}
-
 .container-second {
+  float: right;
 }
 
 .container-second p {
-  float: left;
+  float: right;
   text-align: center;
-  width: 10%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container-main p {
+  text-align: center;
+  margin: 0 20px;
+  display: block;
 }
